@@ -1,0 +1,5 @@
+1.) Go to facebook.com. Login. Create a new application. Copy application ID code from there.
+
+2.) Open setting.php here. Paste application code.
+3.) Enter your own facebook ID. This will make you admin.
+4.) Enter your own URL. This will be your comment box ID. This will determine which comments to show.
