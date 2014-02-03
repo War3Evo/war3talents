@@ -234,7 +234,7 @@ h1 {
 .talent-summary-icon > ins {
 	position: absolute;
 	
-	background-image: url('../img/round_icon_border.png');
+	background-image: url('./img/round_icon_border.png');
 	left: -13px;
 	top:  -13px;
 	
@@ -371,14 +371,14 @@ h1 {
 	width: 5px;
 	height: 442px;
 	float: left;
-	background: url("../img/VertBorder.png");
+	background: url("./img/VertBorder.png");
 }
 
 .hor-border {
 	width: 821px; /* 3 * .talent-tab->width + 4 * .vert-border->width; */
 	height: 5px;
 	float: left;
-	background: url("../img/HorBorder.png");
+	background: url("./img/HorBorder.png");
 }
 
 .talent-tab-header {
@@ -553,54 +553,54 @@ h1 {
 }
 
 .req-arrow-right-grey {
-	background: url('../img/Arrow-right-grey.png');
+	background: url('./img/Arrow-right-grey.png');
 }
 
 .req-arrow-right-gold {
-	background: url('../img/Arrow-right-gold.png');
+	background: url('./img/Arrow-right-gold.png');
 }
 
 .req-arrow-left-grey {
-	background: url('../img/Arrow-left-grey.png');
+	background: url('./img/Arrow-left-grey.png');
 }
 
 .req-arrow-left-gold {
-	background: url('../img/Arrow-left-gold.png');
+	background: url('./img/Arrow-left-gold.png');
 }
 
 .req-arrow-down-grey {
-	background: url('../img/Arrow-down-grey.png');
+	background: url('./img/Arrow-down-grey.png');
 }
 
 .req-arrow-down-gold {
-	background: url('../img/Arrow-down-gold.png');
+	background: url('./img/Arrow-down-gold.png');
 }
 
 .req-arrow-up-grey {
-	background: url('../img/Arrow-up-grey.png');
+	background: url('./img/Arrow-up-grey.png');
 }
 
 .req-arrow-up-gold {
-	background: url('../img/Arrow-up-gold.png');
+	background: url('./img/Arrow-up-gold.png');
 }
 
 .req-ver-grey {
-	background: url('../img/Req-ver-grey.png');
+	background: url('./img/Req-ver-grey.png');
 	width: 8px;
 }
 
 .req-ver-gold {
-	background: url('../img/Req-ver-gold.png');
+	background: url('./img/Req-ver-gold.png');
 	width: 8px;
 }
 
 .req-hor-grey {
-	background: url('../img/Req-hor-grey.png');
+	background: url('./img/Req-hor-grey.png');
 	height: 8px;
 }
 
 .req-hor-gold {
-	background: url('../img/Req-hor-gold.png');
+	background: url('./img/Req-hor-gold.png');
 	height: 8px;
 }
 
@@ -610,19 +610,19 @@ h1 {
 }
 
 .req-corner-right-down-grey {
-	background: url('../img/Corner-right-down-grey.png');
+	background: url('./img/Corner-right-down-grey.png');
 }
 
 .req-corner-right-down-gold {
-	background: url('../img/Corner-right-down-gold.png');
+	background: url('./img/Corner-right-down-gold.png');
 }
 
 .req-corner-left-down-grey {
-	background: url('../img/Corner-left-down-grey.png');
+	background: url('./img/Corner-left-down-grey.png');
 }
 
 .req-corner-left-down-gold {
-	background: url('../img/Corner-left-down-gold.png');
+	background: url('./img/Corner-left-down-gold.png');
 }
 
 #glyph-container {

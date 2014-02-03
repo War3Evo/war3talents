@@ -1,9 +1,9 @@
 <?php
 
   //include settings:
-  require ("../settings.php");
+  require ("./settings.php");
   
-  $filename = '../wowtal.zip';
+  $filename = './wowtal.zip';
   if( file_exists( $filename ) ) {
       $last_modified =  date( "Y. F d H:i:s." , filemtime( $filename ) );
   }
@@ -23,16 +23,16 @@
     <title>World of Warcraft - Cataclysm Talent Calculator</title>
   
     <!-- stylesheets -->
-    <link rel="stylesheet" type="text/css" href="../css/general.css" />
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
-    <link rel="stylesheet" type="text/css" href="../css/dd.css" /><!-- MSDropDown -->
-    <link rel="stylesheet" type="text/css" href="../css/flags.css" /><!-- MSDropDown -->
+    <link rel="stylesheet" type="text/css" href="./css/general.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/dd.css" /><!-- MSDropDown -->
+    <link rel="stylesheet" type="text/css" href="./css/flags.css" /><!-- MSDropDown -->
 
     <!-- javascripts -->
-    <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.cookie.js"></script>
-    <script type="text/javascript" src="../js/jquery.dd.js"></script><!-- MSDropDown -->
-    <script type="text/javascript" src="../js/jquery.backstretch.min.js"></script><!-- background img -->
+    <script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="./js/jquery.dd.js"></script><!-- MSDropDown -->
+    <script type="text/javascript" src="./js/jquery.backstretch.min.js"></script><!-- background img -->
     
     <script type="text/javascript" src="js/talent.js"></script>
     <script type="text/javascript" src="js/static-data.js"></script>
@@ -49,7 +49,7 @@
     
       $(document).ready(function(){
 
-        $.backstretch("../img/background.jpg");//set background
+        $.backstretch("./img/background.jpg");//set background
         
         try{
 		      var pages = $("#language-select select").msDropdown({
@@ -132,9 +132,9 @@
     <div id="link-panel">
       <div id="language-select">
         <select>
-          <option value="eng" data-image="../img/blank.gif" data-imagecss="flag gb" data-title="English" selected="selected">English</option>
-          <option value="ger" data-image="../img/blank.gif" data-imagecss="flag de" data-title="German">German</option>
-          <option value="hun" data-image="../img/blank.gif" data-imagecss="flag hu" data-title="Hungarian" disabled="disabled">Hungarian</option>
+          <option value="eng" data-image="./img/blank.gif" data-imagecss="flag gb" data-title="English" selected="selected">English</option>
+          <option value="ger" data-image="./img/blank.gif" data-imagecss="flag de" data-title="German">German</option>
+          <option value="hun" data-image="./img/blank.gif" data-imagecss="flag hu" data-title="Hungarian" disabled="disabled">Hungarian</option>
         </select>
       </div>
       
@@ -174,45 +174,45 @@
 		    <div id="glyph-2-pane" class="glyph-pane">
 		      <div class="glyph-header">Prime Glyphs:</div>
 		      <div class="glyph-entry">
-		        <img src="../icon/missing.png" height="25" width="25">
+		        <img src="./icon/missing.png" height="25" width="25">
 				    <span>Empty</span>
 		      </div>
 		      <div class="glyph-entry">
-		        <img src="../icon/missing.png" height="25" width="25">
+		        <img src="./icon/missing.png" height="25" width="25">
 				    <span>Empty</span>
 		      </div>
 		      <div class="glyph-entry">
-		        <img src="../icon/missing.png" height="25" width="25">
+		        <img src="./icon/missing.png" height="25" width="25">
 				    <span>Empty</span>
 		      </div>
 		    </div>
 		    <div id="glyph-0-pane" class="glyph-pane">
 		      <div class="glyph-header">Major Glyphs:</div>
 		      <div class="glyph-entry">
-		        <img src="../icon/missing.png" height="25" width="25">
+		        <img src="./icon/missing.png" height="25" width="25">
 				    <span>Empty</span>
 		      </div>
 		      <div class="glyph-entry">
-		        <img src="../icon/missing.png" height="25" width="25">
+		        <img src="./icon/missing.png" height="25" width="25">
 				    <span>Empty</span>
 		      </div>
 		      <div class="glyph-entry">
-		        <img src="../icon/missing.png" height="25" width="25">
+		        <img src="./icon/missing.png" height="25" width="25">
 				    <span>Empty</span>
 		      </div>
 		    </div>
 		    <div id="glyph-1-pane" class="glyph-pane">
 		      <div class="glyph-header">Minor Glyphs:</div>
 		      <div class="glyph-entry">
-		        <img src="../icon/missing.png" height="25" width="25">
+		        <img src="./icon/missing.png" height="25" width="25">
 				    <span>Empty</span>
 		      </div>
 		      <div class="glyph-entry">
-		        <img src="../icon/missing.png" height="25" width="25">
+		        <img src="./icon/missing.png" height="25" width="25">
 				    <span>Empty</span>
 		      </div>
 		      <div class="glyph-entry">
-		        <img src="../icon/missing.png" height="25" width="25">
+		        <img src="./icon/missing.png" height="25" width="25">
 				    <span>Empty</span>
 		      </div>
 		    </div>
@@ -233,15 +233,15 @@
 		  </div>
 		  
 		  <div id="download">
-		    <a href="../wowtal.zip">Download Source Code:</a>
-		    <a href="../wowtal.zip"><img src="../img/download.png" width="70px"/></a>
+		    <a href="./wowtal.zip">Download Source Code:</a>
+		    <a href="./wowtal.zip"><img src="./img/download.png" width="70px"/></a>
 		    <p id="last-updated">Last updated:</p>
 		    <p id="last-updated-time"><?=$last_modified;?></p>
 		  </div>
 		  
 		  <div id="original">
 		    <p>You can find the original German version here:</p>
-		    <a href="http://wow.gamona.de/talentcalc/" target="_blank"><img src="../img/link.png" width="70px"/></a>
+		    <a href="http://wow.gamona.de/talentcalc/" target="_blank"><img src="./img/link.png" width="70px"/></a>
 		    <a id="original-link" href="http://wow.gamona.de/talentcalc/" target="_blank">http://wow.gamona.de/talentcalc/</a>
 		  </div>
 		  

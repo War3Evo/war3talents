@@ -1,22 +1,9 @@
-<?php
-
-  //include settings:
-  require ("./settings.php");
-  
-  $filename = './wowtal.zip';
-  if( file_exists( $filename ) ) {
-      $last_modified =  date( "Y. F d H:i:s." , filemtime( $filename ) );
-  }
-
-?>
 <!DOCTYPE html>
 
   <head>
   
     <!-- meta -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta property="fb:admins" content="<?=$your_facebook_id;?>"/>
-    <meta property="fb:app_id" content="<?=$your_facebook_app_id;?>"/>
 
     <!-- title -->
     <title>World of Warcraft - Cataclysm Talent Calculator</title>
@@ -107,14 +94,6 @@
           });
         }
         
-        //Facebook JavaScript SDK
-        (function(d, s, id) {  
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=<?=$your_facebook_app_id;?>";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
         
       });    
        
@@ -126,13 +105,6 @@
     <div id="fb-root"></div>
   
     <div id="link-panel">
-      <div id="language-select">
-        <select>
-          <option value="eng" data-image="./img/blank.gif" data-imagecss="flag gb" data-title="English" selected="selected">English</option>
-          <option value="ger" data-image="./img/blank.gif" data-imagecss="flag de" data-title="German">German</option>
-          <option value="hun" data-image="./img/blank.gif" data-imagecss="flag hu" data-title="Hungarian" disabled="disabled">Hungarian</option>
-        </select>
-      </div>
       
       <h1>WoW Cataclysm Talent Calculator 4.3.4</h1>
       
@@ -226,39 +198,7 @@
 		
 		<div id="footer">
 		
-		  <div id="fb-num-comments">
-		    <fb:comments-count href="<?=$your_wowtal_directory;?>/eng/"></fb:comments-count> awesome comments
-		  </div>
-		
-		  <div id="fb-comments">
-		    <fb:comments numposts="4" title="Wowtal comments" data-href="<?=$your_wowtal_directory;?>/eng/" data-width="771px" colorscheme="dark"></fb:comments>
-		  </div>
-		  
-		  <div id="darkhosting">
-		  
-		    <p>This webpage is hosted by darkhosting.hu</p>
-		    <img src="./img/darkhost.png" width="140px" height="140px"></img>
-		    <div id="mail">
-		    <span>mail: </span>
-		    <a href="mailto:admin@darkhosting.hu">admin@darkhosting.hu</a>
-		    </div>
-		    
-		  </div>
-		  
-		  <div id="download">
-		    <a href="./wowtal.zip">Download Source Code:</a>
-		    <a href="./wowtal.zip"><img src="./img/download.png" width="70px"/></a>
-		    <p id="last-updated">Last updated:</p>
-		    <p id="last-updated-time"><?$last_modified;?></p>
-		  </div>
-		  
-		  <div id="original">
-		    <p>You can find the original German version here:</p>
-		    <a href="http://wow.gamona.de/talentcalc/" target="_blank"><img src="./img/link.png" width="70px"/></a>
-		    <a id="original-link" href="http://wow.gamona.de/talentcalc/" target="_blank">http://wow.gamona.de/talentcalc/</a>
-		  </div>
-		  
-		  <div class="clearfix"></div>
+		<div class="clearfix"></div>
 		  
     </div><!-- #footer -->
 			  
