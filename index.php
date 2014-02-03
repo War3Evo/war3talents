@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="./css/flags.css" /><!-- MSDropDown -->
 
     <!-- javascripts -->
-    <script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="./js/jquery-2.1.0.min.js"></script>
     <script type="text/javascript" src="./js/jquery.cookie.js"></script>
     <script type="text/javascript" src="./js/jquery.dd.js"></script><!-- MSDropDown -->
     <script type="text/javascript" src="./js/jquery.backstretch.min.js"></script><!-- background img -->
