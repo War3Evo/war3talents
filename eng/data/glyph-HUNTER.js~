@@ -1,0 +1,95 @@
+[ {
+"name": "Kleinere Proportionen", "desc": "Verringert die Größe Eures Tiers ein wenig.", "type": 1, "icon":"icon/ability_hunter_bestialdiscipline.png"}
+
+ , {
+"name": "Erschütternder Schuss", "desc": "Eure Fähigkeit Erschütternder Schuss beschränkt zusätzlich das maximale Lauftempo des Ziels.", "type": 0, "icon":"icon/Spell_Frost_Stun.png"}
+
+ , {
+"name": "Benommene Beute", "desc": "Eure Fähigkeiten Zuverlässiger Schuss und Kobraschuss erzeugen bei benommenen Zielen 2 zusätzlichen Fokus.", "type": 2, "icon":"icon/Ability_Rogue_CheatDeath.png"}
+
+ , {
+"name": "Raptorstoß", "desc": "Verringert nach der Nutzung Eurer Fähigkeit Raptorstoß den erlittenen Schaden 5 Sek lang um 20%.", "type": 0, "icon":"icon/Ability_MeleeDamage.png"}
+
+ , {
+"name": "Totstellen", "desc": "Verringert die Abklingzeit Eurer Fähigkeit Totstellen um 5 Sek.", "type": 1, "icon":"icon/Ability_Rogue_FeignDeath.png"}
+
+ , {
+"name": "Zorn des Wildtiers", "desc": "Verringert die Abklingzeit Eurer Fähigkeit Zorn des Wildtiers um 20 Sek.", "type": 0, "icon":"icon/Ability_Druid_FerociousBite.png"}
+
+ , {
+"name": "Unterdrückender Schuss", "desc": "Wenn Ihr mit Unterdrückender Schuss erfolgreich den gewirkten Zauber eines Gegners unterbrecht, gewinnt Ihr sofort 10 Fokus.", "type": 0, "icon":"icon/Ability_TheBlackArrow.png"}
+
+ , {
+"name": "Wildtier ängstigen", "desc": "Verringert die Dauer der durch erlittenen Schaden verursachten Zauberzeiterhöhung beim Wirken Eurer Fähigkeit Wildtier ängstigen um 75%.", "type": 1, "icon":"icon/Ability_Druid_Cower.png"}
+
+ , {
+"name": "Abschreckung", "desc": "Verringert die Abklingzeit Eurer Fähigkeit Abschreckung um 10 Sek.", "type": 0, "icon":"icon/Ability_Whirlwind.png"}
+
+ , {
+"name": "Schnellfeuer", "desc": "Erhöht das durch Eure Fähigkeit Schnellfeuer erhaltene Tempo um zusätzliche 10%.", "type": 2, "icon":"icon/Ability_Hunter_RunningShot.png"}
+
+ , {
+"name": "Streuschuss", "desc": "Erhöht die Reichweite der Fähigkeit Streuschuss um 3 Meter.", "type": 0, "icon":"icon/Ability_GolemStormBolt.png"}
+
+ , {
+"name": "Aspekt des Rudels", "desc": "Erhöht die Reichweite Eurer Fähigkeit Aspekt des Rudels um 15 Meter.", "type": 1, "icon":"icon/Ability_Mount_WhiteTiger.png"}
+
+ , {
+"name": "Rückzug", "desc": "Verringert die Abklingzeit Eurer Fähigkeit Rückzug um 5 Sek.", "type": 0, "icon":"icon/Ability_Rogue_Feint.png"}
+
+ , {
+"name": "Schlangengift", "desc": "Erhöht die regelmäßige kritische Trefferchance Eurer Fähigkeit Schlangengift um 6.%.", "type": 2, "icon":"icon/Ability_Hunter_Quickshot.png"}
+
+ , {
+"name": "Explosivschuss", "desc": "Erhöht die kritische Trefferchance der Fähigkeit Explosivschuss um 6%.", "type": 2, "icon":"icon/Ability_Hunter_ExplosiveShot.png"}
+
+ , {
+"name": "Gezielter Schuss", "desc": "Wenn Ihr mit Eurer Fähigkeit Gezielter Schuss einen kritischen Treffer erzielt, gewinnt Ihr sofort 5 Fokus.", "type": 2, "icon":"icon/INV_Spear_07.png"}
+
+ , {
+"name": "Eiskältefalle", "desc": "Endet der Effekt Eurer Eiskältefalle, wird das Bewegungstempo des Ziels 4 Sek lang um 70% verringert.", "type": 0, "icon":"icon/Spell_Frost_ChainsOfIce.png"}
+
+ , {
+"name": "Schlangenfalle", "desc": "Die von Eurer Schlangenfalle beschworenen Schlangen erleiden 90% weniger Schaden durch Flächeneffekte.", "type": 0, "icon":"icon/Ability_Hunter_SnakeTrap.png"}
+
+ , {
+"name": "Schimärenschuss", "desc": "Verringert die Abklingzeit der Fähigkeit Schimärenschuss um 0.999999 Sek.", "type": 2, "icon":"icon/Ability_Hunter_ChimeraShot2.png"}
+
+ , {
+"name": "Arkaner Schuss", "desc": "Der Schaden Eurer Fähigkeit Arkaner Schuss wird um 12% erhöht.", "type": 2, "icon":"icon/Ability_ImpalingBolt.png"}
+
+ , {
+"name": "Frostfalle", "desc": "Erhöht den Effektradius Eurer Frostfalle um 2 Meter.", "type": 0, "icon":"icon/Spell_Frost_FrostNova.png"}
+
+ , {
+"name": "Zuverlässiger Schuss", "desc": "Erhöht den von Eurer Fähigkeit Zuverlässiger Schuss verursachten Schaden um 10%.", "type": 2, "icon":"icon/Ability_Hunter_SteadyShot.png"}
+
+ , {
+"name": "Besserung", "desc": "Erhöht die gesamte gewirkte Heilung Eurer Fähigkeit Tier heilen um 60.%.", "type": 0, "icon":"icon/Ability_Hunter_MendPet.png"}
+
+ , {
+"name": "Fallenschleuder", "desc": "Verringert die Fokuskosten Eurer Fähigkeit Fallenschleuder um 10.", "type": 0, "icon":"icon/ability_hunter_traplauncher.png"}
+
+ , {
+"name": "Irreführung", "desc": "Wenn Ihr Eure Fähigkeit Irreführung auf Euer Tier anwendet, wird die Abklingzeit von Irreführung sofort abgeschlossen.", "type": 0, "icon":"icon/Ability_Hunter_Misdirection.png"}
+
+ , {
+"name": "Fass!", "desc": "Verringert die Fokuskosten Eurer Fähigkeit Fass! um 3.", "type": 2, "icon":"icon/Ability_Hunter_KillCommand.png"}
+
+ , {
+"name": "Tier wiederbeleben", "desc": "Verringert die Dauer der durch erlittenen Schaden verursachten Zauberzeiterhöhung beim Anwenden Eurer Fähigkeit Tier wiederbeleben um 100%.", "type": 1, "icon":"icon/Ability_Hunter_BeastSoothe.png"}
+
+ , {
+"name": "Tödlicher Schuss", "desc": "Wenn Eure Fähigkeit Tödlicher Schuss ein Ziel nicht tötet, das über 20% Gesundheit oder weniger verfügt, wird die Abklingzeit der Fähigkeit sofort abgeschlossen. Dieser Effekt hat eine Abklingzeit von 6 Sek", "type": 2, "icon":"icon/Ability_Hunter_Assassinate2.png"}
+
+ , {
+"name": "Feuerbrandfalle", "desc": "Verringert die Dauer des Effektes Eurer Feuerbrandfalle um 6 Sek., erhöht jedoch den in dieser Zeit verursachten Schaden um 100%.", "type": 0, "icon":"icon/Spell_Fire_FlameShock.png"}
+
+ , {
+"name": "Ruf des Meisters", "desc": "Erhöht die Dauer Eurer Fähigkeit Ruf des Meisters um 4. Sek.", "type": 0, "icon":"icon/Ability_Hunter_MastersCall.png"}
+
+ , {
+"name": "Wyverngift", "desc": "Verringert die Abklingzeit Eurer Fähigkeit Wyverngift um 6 Sek.", "type": 0, "icon":"icon/INV_Spear_02.png"}
+
+]
+

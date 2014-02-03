@@ -1,0 +1,266 @@
+{
+  "name": "Hunter Pet", "tabs":[ {
+      "name": "Ferocity", "background": "../img/hunterpetferocity.png", "desc": "These talents can be used by the following pet family types:"
+      , "usable":[
+        {
+          "icon":"../icon/Ability_hunter_pet_vulture.png",
+          "name":"Carrion Bird",
+          "type": 0,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Cat.png",
+          "name":"Cat",
+          "type": 0,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_hunter_pet_corehound.png",
+          "name":"Core Hound",
+          "type": 1,
+          "exotic": true
+        },
+        {
+          "icon":"../icon/Ability_hunter_pet_devilsaur.png",
+          "name":"Devilsaur",
+          "type": 1,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/inv_jewelry_necklace_22.png",
+          "name":"Dog",
+          "type": 2,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_hunter_aspectofthefox.png",
+          "name":"Fox",
+          "type": 2,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_hunter_pet_hyena.png",
+          "name":"Hyena",
+          "type": 0,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Moth.png",
+          "name":"Moth",
+          "type": 1,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_hunter_pet_raptor.png",
+          "name":"Raptor",
+          "type": 0,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_druid_primalprecision.png",
+          "name":"Spirit Beast",
+          "type": 1,
+          "exotic": true
+        },
+        {
+          "icon":"../icon/Ability_hunter_pet_tallstrider.png",
+          "name":"Tallstrider",
+          "type": 0,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Wasp.png",
+          "name":"Wasp",
+          "type": 1,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Wolf.png",
+          "name":"Wolf",
+          "type": 0,
+          "exotic": false
+        }
+      ] 
+      , "icon": "../icon/Ability_Druid_KingoftheJungle.png", "type": 2
+      , "talents":[ {
+      
+      "row": 0, "col": 0, "name": "Endless Winter", "img": "../icon/Spell_Shadow_Twilight.png", "ranks": 2, "desc":["The cost of your Mind Freeze is reduced to 10 Runic Power.", "Your Mind Freeze no longer costs Runic Power."]}
+
+     ]}
+     
+     
+     
+     , {
+      "name": "Cunning", "background": "../img/hunterpetcunning.png", "desc": "These talents can be used by the following pet family types:" 
+      , "usable":[
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Bat.png",
+          "name":"Bat",
+          "type": 0,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Owl.png",
+          "name":"Bird of Prey",
+          "type": 0,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Chimera.png",
+          "name":"Chimaera",
+          "type": 1,
+          "exotic": true
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_DragonHawk.png",
+          "name":"Dragonhawk",
+          "type": 3,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_AspectOfTheMonkey.png",
+          "name":"Monkey",
+          "type": 2,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_NetherRay.png",
+          "name":"Nether Ray",
+          "type": 3,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Ravager.png",
+          "name":"Ravager",
+          "type": 3,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Spell_Nature_GuardianWard.png",
+          "name":"Serpent",
+          "type": 0,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Silithid.png",
+          "name":"Silithid",
+          "type": 1,
+          "exotic": true
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Spider.png",
+          "name":"Spider",
+          "type": 0,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Sporebat.png",
+          "name":"Sporebat",
+          "type": 3,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_WindSerpent.png",
+          "name":"Wind Serpent",
+          "type": 0,
+          "exotic": false
+        }
+      ]
+      , "icon": "../icon/Ability_eyeoftheowl.png", "type": 8
+      , "talents":[
+      {
+        "row": 0, "col": 0, "name": "Endless Winter", "img": "../icon/Spell_Shadow_Twilight.png", "ranks": 2, "desc":["The cost of your Mind Freeze is reduced to 10 Runic Power.", "Your Mind Freeze no longer costs Runic Power."]
+      },{
+        "row": 1, "col": 0, "name": "Endless Winter", "img": "../icon/Spell_Shadow_Twilight.png", "ranks": 2, "desc":["The cost of your Mind Freeze is reduced to 10 Runic Power.", "Your Mind Freeze no longer costs Runic Power."]
+      },{
+        "row": 6, "col": 0, "name": "Endless Winter", "img": "../icon/Spell_Shadow_Twilight.png", "ranks": 2, "desc":["The cost of your Mind Freeze is reduced to 10 Runic Power.", "Your Mind Freeze no longer costs Runic Power."]
+      }
+
+     ]}
+     
+     
+     
+     , {
+      "name": "Tenacity", "background": "../img/hunterpettenacity.png", "desc": "These talents can be used by the following pet family types:"
+      , "usable":[
+        {
+          "icon":"../icon/Ability_hunter_pet_bear.png",
+          "name":"Bear",
+          "type": 0,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/INV_Misc_AhnQirajTrinket_01.png",
+          "name":"Beetle",
+          "type": 2,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Boar.png",
+          "name":"Boar",
+          "type": 0,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Crab.png",
+          "name":"Crab",
+          "type": 0,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Crocolisk.png",
+          "name":"Crocolisk",
+          "type": 0,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Gorilla.png",
+          "name":"Gorilla",
+          "type": 0,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Rhino.png",
+          "name":"Rhino",
+          "type": 1,
+          "exotic": true
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Scorpid.png",
+          "name":"Scorpid",
+          "type": 0,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Spider.png",
+          "name":"Shale Spider",
+          "type": 2,
+          "exotic": true
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Turtle.png",
+          "name":"Turtle",
+          "type": 0,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_WarpStalker.png",
+          "name":"Warp Stalkert",
+          "type": 3,
+          "exotic": false
+        },
+        {
+          "icon":"../icon/Ability_Hunter_Pet_Worm.png",
+          "name":"Worm",
+          "type": 1,
+          "exotic": true
+        }
+      ]
+      , "icon": "../icon/Ability_druid_demoralizingroar.png", "type": 8
+      , "talents":[ {
+        
+      "row": 0, "col": 1, "name": "Virulence", "img": "../icon/Spell_Shadow_BurningSpirit.png", "ranks": 3, "desc":["Increases the damage done by your diseases by 10%.", "Increases the damage done by your diseases by 20%.", "Increases the damage done by your diseases by 30%."]}
+      
+     ]}
+]}
+
