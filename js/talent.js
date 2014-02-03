@@ -45,7 +45,7 @@ var Talent = {
 	ICON_Y_SIZE : 40,
 	
 	MAX_POINTS : 41,
-	MAIN_TAB_POINTS : 31,
+	MAIN_TAB_POINTS : 0,
 	
 	MAX_PET_POINTS : 17,
 	
