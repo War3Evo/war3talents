@@ -102,11 +102,10 @@
   </head>
   
   <body>
-    <div id="fb-root"></div>
   
     <div id="link-panel">
       
-      <h1>WoW Cataclysm Talent Calculator 4.3.4</h1>
+      <h1>War3Evo Talent Selector</h1>
       
     </div>
     
@@ -122,10 +121,10 @@
       </div><!-- .button-panel -->
       
       <div class="button-panel">
+				<span id="link-btn" class="red-button">Update</span>
 				<span id="toggle-btn" class="red-button">Switch view</span>
-				<!--<span id="link-btn" class="red-button">Link</span>-->
-				<!--<span id="lock-btn" class="red-button" title="Klicken um &#39;Krieger&#39; als Standardklasse festzulegen.">Standardklasse</span>-->
-				<span id="ingame-btn" class="red-button">Learn ingame</span>
+				<span id="other-btn" class="red-button">Other Button</span>
+				<span id="ingame-btn" class="red-button">Another Button</span>
 			</div><!-- .button-panel -->
 			
 		</div><!-- #header-calc -->
@@ -138,68 +137,13 @@
 		    <div id="tab-2-header" class="talent-tab-header"></div> 
 		  </div><!-- #talent-calc -->
 		
-		  <div id="pet-settings">
-		  
-		  
-		    
-		  </div>
-		
-		  <div id="glyph-container">
-		    <div id="glyph-2-pane" class="glyph-pane">
-		      <div class="glyph-header">Prime Glyphs:</div>
-		      <div class="glyph-entry">
-		        <img src="./icon/missing.png" height="25" width="25">
-				    <span>Empty</span>
-		      </div>
-		      <div class="glyph-entry">
-		        <img src="./icon/missing.png" height="25" width="25">
-				    <span>Empty</span>
-		      </div>
-		      <div class="glyph-entry">
-		        <img src="./icon/missing.png" height="25" width="25">
-				    <span>Empty</span>
-		      </div>
-		    </div>
-		    <div id="glyph-0-pane" class="glyph-pane">
-		      <div class="glyph-header">Major Glyphs:</div>
-		      <div class="glyph-entry">
-		        <img src="./icon/missing.png" height="25" width="25">
-				    <span>Empty</span>
-		      </div>
-		      <div class="glyph-entry">
-		        <img src="./icon/missing.png" height="25" width="25">
-				    <span>Empty</span>
-		      </div>
-		      <div class="glyph-entry">
-		        <img src="./icon/missing.png" height="25" width="25">
-				    <span>Empty</span>
-		      </div>
-		    </div>
-		    <div id="glyph-1-pane" class="glyph-pane">
-		      <div class="glyph-header">Minor Glyphs:</div>
-		      <div class="glyph-entry">
-		        <img src="./icon/missing.png" height="25" width="25">
-				    <span>Empty</span>
-		      </div>
-		      <div class="glyph-entry">
-		        <img src="./icon/missing.png" height="25" width="25">
-				    <span>Empty</span>
-		      </div>
-		      <div class="glyph-entry">
-		        <img src="./icon/missing.png" height="25" width="25">
-				    <span>Empty</span>
-		      </div>
-		    </div>
-		  </div><!-- #glyph-container -->
-		  
 	  </div><!-- #calc_and_glyph_container -->
 		
 		<div class="clearfix"></div>
 		
-		<div id="footer">
-		
-		<div class="clearfix"></div>
-		  
+	<div id="footer">
+		<div class="clearfix"> </div>
+		<span>Copyright © 2014 <a href="http://war3evo.info/">War3Evo</a></span>
     </div><!-- #footer -->
 			  
   </body>
