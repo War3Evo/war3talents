@@ -1,9 +1,9 @@
 var StaticData = {
 	ClassNames : {
-		"DEATHKNIGHT" : "Death Knight",
+		//"DEATHKNIGHT" : "Death Knight",
 		"DRUID" :       "Druid",
 		"HUNTER" :      "Hunter",
-		"HUNTERPET":    "Hunter Pet",
+		//"HUNTERPET":    "Hunter Pet",
 		"MAGE" :        "Mage",
 		"PALADIN" :     "Paladin",
 		"PRIEST" :      "Priest",
@@ -14,10 +14,10 @@ var StaticData = {
 	},
 
 	TabColors : {
-		"DEATHKNIGHT" : [[255, 0, 0],    [0, 0, 255], [0, 255, 0]],
+		//"DEATHKNIGHT" : [[255, 0, 0],    [0, 0, 255], [0, 255, 0]],
 		"DRUID" :       [[255, 184, 26], [255, 0, 0],    [0, 255, 153]],
 		"HUNTER" :      [[77, 0, 255],   [204, 51, 204], [0, 255, 153]],
-		"HUNTERPET" :      [[150, 0, 103],   [68, 143, 242], [148, 36, 186]],
+		//"HUNTERPET" :      [[150, 0, 103],   [68, 143, 242], [148, 36, 186]],
 		"MAGE" :        [[255, 184, 26], [255, 0, 0],    [77, 128, 255]],
 		"PALADIN" :     [[255, 184, 26], [255, 0, 0],    [77, 128, 255]],
 		"PRIEST" :      [[77, 128, 255], [255, 184, 26], [255, 0, 0]],

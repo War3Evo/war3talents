@@ -13,10 +13,8 @@ function strrep(str, n) {
 }
 
 var ClassMap = {
-	DK: "DEATHKNIGHT",
 	DU: "DRUID",
 	HU: "HUNTER",
-	HP: "HUNTERPET",
 	MG: "MAGE",
 	PA: "PALADIN",
 	PR: "PRIEST",
@@ -70,7 +68,10 @@ var Talent = {
 		Talent.spellTooltip = Talent.CreateSpellTooltip();
 		
 		document.getElementById("class-icon").src = "./img/class-" + Class.toLowerCase() + ".png";
-		
+		$("#logout-btn").click(function() {
+			document.cookie = 'canaccess=no';
+			window.location.href = 'index.php';
+		});
 		$("#reset-all-btn").click(function() {
 			Talent.ResetAll();
 		});
@@ -141,7 +142,6 @@ var Talent = {
 		Talent.totalPoints = 0;
 		
 		Talent.container = document.getElementById("talent-calc");
-		Talent.pet_settings_container = document.getElementById("pet-settings");
 		
 		Talent.tab = new Array();
 		Talent.tabSum = new Array();
@@ -270,41 +270,6 @@ var Talent = {
 		for (i=0; i < 9; ++i)
 			gl[i] = -1;
 		
-		$("#glyph-0-pane .glyph-entry").map(function(id, div) {
-			div.parentNode.glyphType = 0;
-			div.glyphType = 0;
-			div.glyphIndex = (0 * 3) + id;
-			btn[div.glyphIndex] = div;
-		});
-		$("#glyph-1-pane .glyph-entry").map(function(id, div) {
-			div.parentNode.glyphType = 1;
-			div.glyphType = 1;
-			div.glyphIndex = (1 * 3) + id;
-			btn[div.glyphIndex] = div;
-		});
-		$("#glyph-2-pane .glyph-entry").map(function(id, div) {
-			div.parentNode.glyphType = 2;
-			div.glyphType = 2;
-			div.glyphIndex = (2 * 3) + id;
-			btn[div.glyphIndex] = div;
-		});
-		
-		$(".glyph-entry").map(function(id, entry) {
-			entry.glyphIcon = $(entry).children("img")[0];
-			entry.glyphName = $(entry).children("span")[0];
-		});
-		
-		$(".glyph-pane").map(function(id, div) {
-			div.header = $(div).children("div")[0];
-			
-			div.header.appendChild(div.resetBtn = document.createElement("img"));
-			div.resetBtn.src = "./img/cross.png";
-			div.resetBtn.width = div.resetBtn.height = 10;
-			div.resetBtn.className = "glyph-pane-reset";
-			$(div.resetBtn).click(function() {
-				Talent.ResetGlyphs(div.glyphType);
-			});
-		});
 				
 		var sel = Talent.glyphSelect = document.createElement("div");
 		sel.id = "glyph-select";
@@ -409,7 +374,7 @@ var Talent = {
 		var div = document.createElement("div");
 		
 		div.className = "talent-tab";
-		div.style.background = "url('" + data.background + "')";
+		div.style.background = "rgba(51,51,51,0.6)";
 		
 		div.tabId = tabId;
 		div.points = 0;
