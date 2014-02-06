@@ -69,7 +69,7 @@ var Talent = {
 		
 		document.getElementById("class-icon").src = "./img/class-" + Class.toLowerCase() + ".png";
 		$("#logout-btn").click(function() {
-			document.cookie = 'canaccess=no';
+			document.cookie = "playid=0";
 			window.location.href = 'index.php';
 		});
 		$("#reset-all-btn").click(function() {
